@@ -1,3 +1,9 @@
+/* 
+Theme Name: WhiteHardt Test
+Author: Alexander Victoria
+Description: Test
+Version: 1.0
+*/
 body {
     font-family: Roboto, sans-serif;
     margin: 0
@@ -60,10 +66,6 @@ a:hover {
     text-decoration: underline
 }
 
-/* 
-Banne Section
-*/
-
 .banner {
     height: 100vh;
     display: flex;
@@ -71,7 +73,7 @@ Banne Section
     align-items: center;
     justify-content: left;
     flex-direction: row;
-    background: rgba(0, 0, 0, .2) url(images/GettyImages-526245919.jpg);
+    background: rgba(0, 0, 0, .2) url(GettyImages-526245919.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -105,10 +107,6 @@ Banne Section
 .contactBtn:hover {
     background-color: #20699c
 }
-
-/* 
-Navigation Menu
-*/
 
 nav {
     height: 100px;
@@ -150,8 +148,6 @@ nav ul {
     color: #0872bc
 }
 
-
-
 #logo-img {
     display: flex;
     height: 100%;
@@ -176,7 +172,7 @@ nav ul {
 
 #slideout-menu {
     display: flex;
-    background: #0872BC;
+    background: #0872bc;
     z-index: 100;
     position: fixed;
     transition: .4s;
@@ -210,10 +206,6 @@ nav ul {
     text-align: center
 }
 
-/* 
-After Banner Title
-*/
-
 .afterBanner {
     display: flex;
     align-items: center;
@@ -227,10 +219,6 @@ After Banner Title
     font-style: italic;
     letter-spacing: 1px
 }
-
-/* 
-Specialty Section
-*/
 
 #specialty {
     box-sizing: border-box;
@@ -290,9 +278,6 @@ Specialty Section
     overflow: hidden
 }
 
-/* 
-Footer Section
-*/
 .bannerBottom {
     height: 600px;
     display: flex;
@@ -300,7 +285,7 @@ Footer Section
     align-items: center;
     justify-content: left;
     flex-direction: row;
-    background: rgba(0, 0, 0, .2) url(images/GettyImages-1034313494.jpg);
+    background: rgba(0, 0, 0, .2) url(GettyImages-1034313494.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -355,10 +340,6 @@ footer ul {
 .footer-logo img {
     height: 50px
 }
-
-/* 
-Media Queries
-*/
 
 @media (max-width:1130px) {
     nav a {

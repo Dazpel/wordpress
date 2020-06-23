@@ -1,1 +1,1 @@
-alert('Hello')
+const menuIcon=document.getElementById("menu-icon"),slideoutMenu=document.getElementById("slideout-menu");menuIcon.addEventListener("click",function(){"1"==slideoutMenu.style.opacity?(slideoutMenu.style.opacity="0",slideoutMenu.style.pointerEvents="none"):(slideoutMenu.style.opacity="1",slideoutMenu.style.pointerEvents="auto")});
