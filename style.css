@@ -5,22 +5,21 @@ Description: Test
 Version: 1.0
 */
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0
 }
 
 h1 {
     border-radius: 8px;
-    margin: 0;
-    font-size: 64px;
-    font-family: "Roboto Slab", serif
-}
+    margin: 0 0 10px 0;
+    font-size: 55px;
+    font-family: 'Raleway', sans-serif;}
 
 h3 {
-    font-size: 36px;
-    font-family: "Roboto Slab", serif;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    width: 700px;
+    width: 550px;
     text-align: center;
     border-bottom: 2px solid #0872bc;
     line-height: .1em;
@@ -34,17 +33,16 @@ h3 span {
 
 h2 {
     margin: 0;
-    font-size: 36px;
-    font-family: "Roboto Slab", serif;
-    font-weight: 500
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
 }
 
 h4 {
     padding: 0;
     margin: 0;
     font-size: 20px;
-    font-family: "Roboto Slab", serif;
-    font-weight: 700
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600
 }
 
 h5 {
@@ -54,7 +52,7 @@ h5 {
 }
 
 p {
-    line-height: 1.5
+    line-height: 1.7;
 }
 
 a {
@@ -98,10 +96,10 @@ a:hover {
     background-color: #0872bc;
     color: #fff;
     text-transform: uppercase;
-    font-size: 20px;
-    height: 50px;
-    width: 200px;
-    padding: 0
+    font-size: 18px;
+    height: 60px;
+    width: 250px;
+    padding: 20px;
 }
 
 .contactBtn:hover {
@@ -139,6 +137,7 @@ nav ul {
     list-style: none;
     justify-content: space-around;
     align-items: center;
+    padding-right: 40px;
     height: 100%;
     margin: 0;
     color: #000
@@ -237,7 +236,8 @@ nav ul {
     height: 1em;
     font-weight: 700;
     letter-spacing: .5px;
-    justify-content: center
+    justify-content: center;
+    margin-bottom: 15px;
 }
 
 .specialty-content {
@@ -256,7 +256,7 @@ nav ul {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between
+    justify-content: space-evenly;
 }
 
 .specialty-content-left h4 {
@@ -348,6 +348,11 @@ footer ul {
 }
 
 @media (max-width:900px) {
+
+    p {
+        line-height: 1.5;
+    }
+
     nav ul {
         display: none
     }
@@ -360,6 +365,10 @@ footer ul {
         height: 100%
     }
 
+    .specialty-title {
+        margin-bottom: 10px;
+    }
+    
     .specialty-content {
         padding: 0;
         margin-top: 3em;
@@ -398,6 +407,10 @@ footer ul {
         padding: 20px
     }
 
+    .specialty-title {
+        margin: 30px 0 0 0;
+    }
+
     footer {
         flex-direction: column;
         text-align: center
@@ -426,8 +439,8 @@ footer ul {
         margin-bottom: 50px
     }
 
-    .specialty-content-right {
-        display: none
+    #specialty {
+        height: 90vh;
     }
 
     .specialty-content-left {
@@ -452,7 +465,7 @@ footer ul {
     }
 
     h2 {
-        font-size: 22px
+        font-size: 20px
     }
 
     h3 {
