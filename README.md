@@ -1,2 +1,2 @@
 # wordpress
-Practice responsive
+Wordpress Template practice
