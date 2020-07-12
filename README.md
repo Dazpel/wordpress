@@ -1,2 +1,2 @@
 # wordpress
-Wordpress Template practice
+Wordpress Template practice, CSS practice
